@@ -1,2 +1,0 @@
-# megapolis
-Created with CodeSandbox

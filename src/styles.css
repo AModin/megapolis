@@ -1,0 +1,172 @@
+body {
+  font-family: "Tahoma", sans-serif;
+}
+
+input {
+  background: #f2f2f2;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.App {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.list-wrapper {
+  display: flex;
+  height: 50px;
+}
+
+.list-item_1 {
+  display: flex;
+  border: 1px solid #e6e6e6;
+  flex-grow: 1;
+  max-width: 10%;
+  align-items: center;
+  padding: 0 20px;
+  font-size: 14px;
+}
+
+.list-item_2 {
+  display: flex;
+  border: 1px solid #e6e6e6;
+  border-left: none;
+  border-right: none;
+  flex-grow: 1;
+  max-width: 80%;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.list-item_3 {
+  display: flex;
+  border: 1px solid #e6e6e6;
+  flex-grow: 1;
+  max-width: 10%;
+  align-items: center;
+  padding: 0 20px;
+  justify-content: space-around;
+}
+
+.modal-wrapper {
+  width: 480px;
+  height: 200px;
+  border: 1px solid #ededed;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+  background: #fff;
+  box-shadow: 3px 3px 5px #eaeaea;
+}
+
+.button {
+  padding: 10px 25px;
+  border-radius: 5px;
+  cursor: pointer;
+  height: 40px;
+  background: transparent;
+  color: #000000;
+}
+
+.button:hover {
+  color: #fff;
+}
+
+.button-primary {
+  border: 1px solid #0071bc;
+}
+
+.button-primary:hover {
+  border: 1px solid #0071bc;
+  background: #0071bc;
+}
+
+.button-success {
+  border: 1px solid #39b54a;
+}
+
+.button-success:hover {
+  border: 1px solid #39b54a;
+  background: #39b54a;
+}
+
+.button-fail {
+  border: 1px solid #ff0000;
+}
+
+.button-fail:hover {
+  border: 1px solid #ff0000;
+  background: #ff0000;
+}
+
+.modal-input-holder {
+  display: flex;
+  width: 100%;
+}
+
+.modal-button-holder {
+  margin-top: 10px;
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.modal-title {
+  display: flex;
+  width: 100%;
+  margin: 10px;
+  justify-content: flex-start;
+  font-size: 15px;
+}
+
+.modal-close {
+  display: flex;
+  align-self: flex-end;
+}
+
+.button-icon {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.modal-holder {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(255, 255, 255, 0.83);
+  align-items: center;
+  justify-content: center;
+}
+
+.error {
+  color: #ff0000;
+  font-size: 13px;
+  bottom: 0;
+  margin: 0;
+  height: 15px;
+  display: block;
+  display: flex;
+  align-self: baseline;
+}
+
+.edit-holder {
+  max-width: 600px;
+}
